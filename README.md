@@ -51,15 +51,15 @@ overview | movie's overview | object
 
 ## Project Directory
 ```
-| -  recommendation_system
-|   -- data
-|     --- links.csv
+| -  recommendation_system        
+|   -- data                                         Includes all datasets used for the project
+|     --- links.csv                                 
 |     --- movies.csv
 |     --- ratings.csv
 |     --- movies_metadata.csv
-|   -- LICENSE
-|   -- Movie_recommendation_sys.ipynb
-|   -- README.md
+|   -- LICENSE                                      MIT License
+|   -- Movie_recommendation_sys.ipynb               Google Colab Notebook with source code
+|   -- README.md                                    Project Overview
 ```
 
 ## Potential Considerations
