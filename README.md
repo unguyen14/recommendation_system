@@ -9,9 +9,20 @@ This project aims to build a robust recommendation system that offers various su
 - Statistical Methods: [Jaccard similarity](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.jaccard_score.html#:~:text=Jaccard%20similarity%20coefficient%20score.,set%20of%20labels%20in%20y_true%20.), [Cosine similarity](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.pairwise.cosine_similarity.html)
 
 ## Project Motivations:
-Learning users' behaviors through their interactions with the products can be applied to promote relevant items strategically, thus, possibly leads to improvement in users' satisfaction. Some of the state-of-art recommending system have been widely utilized by big companies like Netflix, Amazon, etc. 
+Learning users' behaviors through their interactions with the products can be applied to promote relevant items strategically, thus leading to improvement in user satisfaction. Some of the state-of-art recommending systems have been widely utilized by big companies like Netflix, Amazon, etc. 
 
-This project is a collaborative effort of Winnie Nguyen and Fabio Turazzi, aiming to build a multitude of movie suggestion methods that take advantage of a variety of available features, using Content-based, Collaborative filtering and hybrid options to maximize the relevancy to the interested contents. 
+This project is a collaborative effort of Winnie Nguyen and Fabio Turazzi, aiming to build a robust movie suggestion engine that takes advantage of a variety of available features. We use methods based on movie popularity, content filtering, collaborative filtering, and hybrid alternatives to maximize the relevancy to the recommendation output. 
+
+## Recommendation Algorithms:
+- **Simple Recommendation System**: generally analyzing most popular and highest rated movies across genres.
+
+- **Content-Based Recommendataion**: using contents as the basis to suggest similar movies.
+    - *Genre similarity*: recommendations based on the similarities between movie genres.
+    - *Description similarity*: based on text similarities in movie descriptions.
+    
+- **Collaborative Filtering**: using ratings as the basis to suggest similar movies.
+    - *Item-based filtering*: provides recommendations given a movie title by analyzing other items similarly rated by users.
+    - *User-based filtering*: focuses on a target user to provide suggestions, by analyzing favorite movies by other similar users. Includes a model for rating prediction for a given user and movie.
 
 ## Datasets
 We use 4 datasets obtained from the 2 sources mentioned above. 
@@ -63,6 +74,6 @@ overview | movie's overview | object
 ```
 
 ## Potential Considerations
-Even though we are able to generate lists of similar items, we want to explore more methods to provide even better recommendations that can differentiate itself in the market. 
+In this project, we were able to provide different perspectives to movie recommendation that can be used in a professional setting to generate a robust engine. Even though we were successfull in identifying item similarity, more methods can be explored to improve recommendations even further. 
 
 
