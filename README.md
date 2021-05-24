@@ -66,8 +66,9 @@ overview | movie's overview | object
 |   -- data                                         Includes all datasets used for the project
 |     --- links.csv                                 
 |     --- movies.csv
-|     --- ratings.csv
-|     --- movies_metadata.csv
+|     --- ratings.csv                               Not uploaded due to file size constraints
+|     --- movies_metadata.csv                       Not uploaded due to file size constraints
+|     --- additional_datasets.md                    Describes the path for two datasets that couldn't be uploaded to GitHub 
 |   -- LICENSE                                      MIT License
 |   -- Movie_recommendation_sys.ipynb               Google Colab Notebook with source code
 |   -- README.md                                    Project Overview
